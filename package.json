@@ -1,0 +1,28 @@
+{
+  "name": "spacelisk-contracts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "hardhat run scripts/deploy.ts",
+    "deposit": "hardhat run scripts/deposit.ts"
+  },
+  "keywords": [],
+  "author": "Anurigwo Chibuzor",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@account-abstraction/contracts": "0.6.0",
+    "@openzeppelin/contracts": "^4.2.0",
+    "@openzeppelin/contracts-upgradeable": "^4.9.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.12.1",
+    "userop": "^0.4.0-beta.5"
+  }
+}

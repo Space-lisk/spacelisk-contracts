@@ -1,0 +1,1 @@
+export type validNetworks = 'lisk_sepolia';
